@@ -43,3 +43,8 @@ In the context of your machine (not from within boot2docker)
 ```
 VBoxManage controlvm boot2docker-vm natpf1 "docker-test,tcp,127.0.0.1,3000,,3000"
 ```
+
+### Client / server version mismatch
+$ boot2docker stop
+$ boot2docker download
+$ boot2docker up
